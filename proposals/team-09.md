@@ -15,8 +15,7 @@ The House of Games
 | LeAnn Lo            | lnl20 |
 | Nkemdibe Okweye     | no252 |
 | Mohammed Elhag      | me878 |
-| Oluwatosin Ayokunle | ta732 |
-| Mohammad Yassin     | my677 |
+| Oluwatosin Ayokunle/Mohammad Yassin   | ta732/my677 |
 
 ## Project Title
 
