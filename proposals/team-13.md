@@ -25,7 +25,7 @@ Roomwise: An AI Agent for Roommate Matching and Apartment Search
 
 Roomwise will help Washington, DC renters balance housing costs, commutes, amenities, and roommate compatibility through apartment search and optional two-person roommate matching.
 
-A coordinator will pass structured renter preferences to matching, search, and verification agents. Matching ranks consenting profiles and explains conflicts; search retrieves rental listings through the RentCast API, property details from permitted websites, and Google Routes/Places results; verification reconciles unit identities, checks evidence, and flags unknown fees. The coordinator returns ranked, cited recommendations. Contact sharing requires consent. API access and website permissions remain unverified.
+A coordinator will pass structured renter preferences to matching, search, and verification agents. Matching ranks consenting profiles and explains conflicts; search retrieves listings through RentCast’s `GET https://api.rentcast.io/v1/listings/rental/long-term` endpoint, property details from permitted websites, and Google Routes/Places results; verification reconciles unit identities, checks evidence, and flags unknown fees. The coordinator returns ranked, cited recommendations. Contact sharing requires consent. API access and website permissions remain unverified.
 
 Agents will run in a Linux VM on a local desktop; a minimal workflow will run in week one. Claude Sonnet 4.5, hosted by Anthropic, will handle tool selection, extraction from varied listing text, and evidence-based explanations because these tasks require language interpretation across sources. Local Python will enforce constraints, score preferences, and calculate costs for reproducibility.
 
